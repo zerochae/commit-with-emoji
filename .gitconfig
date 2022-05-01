@@ -1,0 +1,17 @@
+[alias]
+	# Feat
+	feat = "!f() { git commit -m \"✨ Feat: $@\"; }; f"
+	# Fix
+	fix = "!f() { git commit -m \"🐛 Fix: $@\"; }; f"
+	# design
+	design = "!f() { git commit -m \"💄 Design: $@\"; }; f"
+	# Refactor
+	refactor = "!f() { git commit -m \"♻️  Refactor: $@\"; }; f"
+	# Chore
+	chore = "!f() { git commit -m \"📦 Chore: $@\"; }; f"
+	# Rename
+	rename = "!f() { git commit -m \"🚚 Rename: $@\"; }; f"
+	# Remove
+	remove = "!f() { git commit -m \"🔥 Remove: $@\"; }; f"
+	# Docs
+	docs = "!f() { git commit -m \"📝 Docs: $@\"; }; f"

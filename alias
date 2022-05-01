@@ -1,3 +1,0 @@
-[alias]
-	# Feat
-	feat = "!f() { git commit -m \"✨ Feat: $@\"; }; f"
