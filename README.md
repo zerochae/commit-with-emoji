@@ -30,13 +30,16 @@ vim ~/.gitconfig
 2. .gitconfig 파일 내용 추가하기
 - 내용을 모두 복사 붙여넣기 합니다.
 
+<img width="578" alt="스크린샷 2022-05-01 17 26 37" src="https://user-images.githubusercontent.com/84373490/166138142-ded84300-9918-4070-86cb-a85cb887acd6.png">
+
 
 ## Usage
 
 - `git feat "커밋 메시지"` -> `git commit -m "✨ Feat: 커밋 메시지"`
 - `git fix "커밋 메시지"` -> `git commit -m "🐛 Fix: 커밋 메시지"`
 - `git docs "커밋 메시지"` -> `git commit -m "📝 Docs: 커밋 메시지"`
-- 
+
+
 <img width="723" alt="스크린샷 2022-05-01 17 00 10" src="https://user-images.githubusercontent.com/84373490/166137529-cab51e33-96f5-4b5e-8cde-2d7a7777cb3f.png">
 
 
