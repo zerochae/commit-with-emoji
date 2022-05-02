@@ -32,6 +32,12 @@ vim ~/.gitconfig
 
 <img width="578" alt="스크린샷 2022-05-01 17 26 37" src="https://user-images.githubusercontent.com/84373490/166138142-ded84300-9918-4070-86cb-a85cb887acd6.png">
 
+3. 변경사항 적용
+
+```
+source ~/.gitconfig
+```
+
 
 ## Usage
 
