@@ -15,3 +15,5 @@
 	remove = "!f() { git commit -m \"🔥 Remove: $@\"; }; f"
 	# Docs
 	docs = "!f() { git commit -m \"📝 Docs: $@\"; }; f"
+  # Post
+  post = "!f() { git commit -m \"🗒  Post `date "+%Y-%m-%d"` $@\"; }; f"
