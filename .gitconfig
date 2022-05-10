@@ -1,19 +1,31 @@
 [alias]
 	# Feat
-	feat = "!f() { git commit -m \"✨ Feat: $@\"; }; f"
+	feat = "!f() { git commit -m \"✨ Feat: $@\"; git push; }; f"
 	# Fix
-	fix = "!f() { git commit -m \"🐛 Fix: $@\"; }; f"
+	fix = "!f() { git commit -m \"🐛 Fix: $@\"; git push; }; f"
 	# design
-	design = "!f() { git commit -m \"💄 Design: $@\"; }; f"
+	design = "!f() { git commit -m \"💄 Design: $@\"; git push; }; f"
 	# Refactor
-	refactor = "!f() { git commit -m \"♻️  Refactor: $@\"; }; f"
+	refactor = "!f() { git commit -m \"♻️  Refactor: $@\"; git push; }; f"
 	# Chore
-	chore = "!f() { git commit -m \"📦 Chore: $@\"; }; f"
+	chore = "!f() { git commit -m \"📦 Chore: $@\"; git push; }; f"
 	# Rename
-	rename = "!f() { git commit -m \"🚚 Rename: $@\"; }; f"
+	rename = "!f() { git commit -m \"🚚 Rename: $@\"; git push; }; f"
 	# Remove
-	remove = "!f() { git commit -m \"🔥 Remove: $@\"; }; f"
+	remove = "!f() { git commit -m \"🔥 Remove: $@\"; git push; }; f"
 	# Docs
-	docs = "!f() { git commit -m \"📝 Docs: $@\"; }; f"
-  # Post
-  post = "!f() { git commit -m \"🗒  Post `date "+%Y-%m-%d"` $@\"; }; f"
+	docs = "!f() { git commit -m \"📝 Docs: $@\"; git push; }; f"
+	# Setting
+	setting = "!f() { git commit -m \"👷 Setting: $@\"; git push; }; f"
+	# Merge
+	mer = "!f() { git commit -m \"🔀 Merge: $@\"; git push; }; f"
+  	# Update
+	update = "!f() { git commit -m \"🌱 Update: $@\"; git push; }; f"
+  	# Lint 
+	lint = "!f() { git commit -m \"🩹 Lint: $@\"; git push; }; f"
+  	# Ignore 
+	ignore = "!f() { git commit -m \"🙈 Ignore: $@\"; git push; }; f"
+  	# Test
+  	test = "!f() { git commit -m \"🧪 Test: $@\"; git push; }; f"
+  	# Post
+	post = "!f() { git add -A && git commit -m \"🗒  Post `date +%Y-%m-%d` $@\" && git push origin master; }; f"
